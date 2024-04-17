@@ -39,25 +39,6 @@ canvas {
 }
 
 
-<<<<<<< HEAD
-#navbar {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-}
-
-#name {
-    padding: 1vw 2vw ;
-    display: flex;
-    align-items: center;
-}
-
-#name h1 {
-    font-weight: 500;
-}
-
-=======
 nav {
     width: 100%;
     display: flex;
@@ -74,7 +55,6 @@ nav h1 {
 }
 
 
->>>>>>> db52fb3 (Merge branch 'main' of https://github.com/Balaramsarkar-007/my-portfolio)
 #navdetails {
     display: flex;
     justify-content: space-evenly;
@@ -111,11 +91,7 @@ nav h1 {
 }
 
 #bio h1 {
-<<<<<<< HEAD
-    font-size: 4.5vw;
-=======
     font-size: 3.5vw;
->>>>>>> db52fb3 (Merge branch 'main' of https://github.com/Balaramsarkar-007/my-portfolio)
     font-weight: 500;
     padding-left: 7vw;
     transition: all ease 1s;
@@ -196,12 +172,9 @@ nav h1 {
 #portfolio  #heading h1 {
     font-size: 3vw;
     font-weight: 500;
-<<<<<<< HEAD
-=======
     -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
->>>>>>> db52fb3 (Merge branch 'main' of https://github.com/Balaramsarkar-007/my-portfolio)
 }
 
 #pabout {
@@ -242,12 +215,9 @@ nav h1 {
     font-size: 2.5vw;
     font-weight: 500;
     letter-spacing: 4px;
-<<<<<<< HEAD
-=======
     -webkit-animation: glow 1s ease-in-out infinite alternate;
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
->>>>>>> db52fb3 (Merge branch 'main' of https://github.com/Balaramsarkar-007/my-portfolio)
 }
 
 #pro-section{
@@ -260,12 +230,6 @@ nav h1 {
 
 .section {
     width: 22vw;
-<<<<<<< HEAD
-    height: 25vw;
-    color: #fff;
-}
-
-=======
     /* height: 25vw; */
     color: #fff;
 }
@@ -275,7 +239,6 @@ nav h1 {
     color: #fff;
 } 
 
->>>>>>> db52fb3 (Merge branch 'main' of https://github.com/Balaramsarkar-007/my-portfolio)
 .section h2 {
     padding: 3vw 5vw;
     font-size: 2vw;
@@ -286,11 +249,7 @@ nav h1 {
     padding: 1vw;
     font-size: 1.2vw;
     letter-spacing: 1.3px;
-<<<<<<< HEAD
-    line-height: 23px;
-=======
     margin-bottom: 5%;
->>>>>>> db52fb3 (Merge branch 'main' of https://github.com/Balaramsarkar-007/my-portfolio)
 }
 
 #sec1 {
@@ -313,8 +272,6 @@ nav h1 {
     background-color: rgb(18, 97, 255);
     border-radius: 5%;
 }
-<<<<<<< HEAD
-=======
 
 /* my skills sections */
 
@@ -443,4 +400,3 @@ nav h1 {
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
   }
->>>>>>> db52fb3 (Merge branch 'main' of https://github.com/Balaramsarkar-007/my-portfolio)

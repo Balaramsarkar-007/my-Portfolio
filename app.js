@@ -71,10 +71,6 @@ particlesJS("particles-js", {
   };
   requestAnimationFrame(update);
 
-<<<<<<< HEAD
-
- 
-=======
   //form validation 
 
   (() => {
@@ -95,4 +91,3 @@ particlesJS("particles-js", {
       }, false)
     })
   })()
->>>>>>> db52fb3 (Merge branch 'main' of https://github.com/Balaramsarkar-007/my-portfolio)
