@@ -113,7 +113,6 @@ nav h1 {
 }
 
 #img img {
-    
    height: 100%;
    width: 100%;
    object-fit: cover;
@@ -172,9 +171,7 @@ nav h1 {
 #portfolio  #heading h1 {
     font-size: 3vw;
     font-weight: 500;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 }
 
 #pabout {
@@ -215,9 +212,7 @@ nav h1 {
     font-size: 2.5vw;
     font-weight: 500;
     letter-spacing: 4px;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 }
 
 #pro-section{
@@ -282,9 +277,7 @@ nav h1 {
     align-items: center;
     justify-content: center;
     border-bottom:1px solid #fff ;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 }
 
 .skills-heading h2 {
@@ -336,9 +329,7 @@ nav h1 {
     align-items: center;
     justify-content: center;
     border-bottom:1px solid #fff ;  
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 }
 
 .contact-heading h2 {
@@ -355,14 +346,36 @@ nav h1 {
  
 /* add media query */
 
-@media only screen and (max-width: 360px) {
-    #description {
-         height:  2%;
-         padding-top: 2rem;
-        } 
-    #home {
-        height: 40vh;
-    } 
+@media only screen and (max-width: 450px) {
+
+    #mydtl {
+       height: 90vh;
+    }
+
+    #bio h1  {
+        font-size: 1rem;
+    }
+
+    #navdetails a {
+        font-size: 0.5rem;
+    }
+
+    #img {
+        height: 10rem;
+        width: 8rem;
+    }
+
+    #pabout p, #description h3{
+        font-size: 0.7rem;
+    }
+
+    #pabout h1, #description h1 {
+        font-size: 1rem;
+    }
+    .section h2 {
+        font-size: 0.8rem;
+    }
+
     #navbar h1 {
         font-size: smaller;
     }  
@@ -376,27 +389,15 @@ nav h1 {
     .skills-outer p {
         font-size: 30%;
     }
-    .skills-heading h2, .contact-heading h2 {
-        font-size: 70%;
-    }
-    .skills-heading, .contact-heading {
-        height: 3rem;
+    .skills-heading h2, .contact-heading h2, #proj-heading h1, #portfolio #heading h1 {
+        font-size: 1.5rem;
+        margin: 1.5rem 0;
     }
 
     .mb-3 label{
-        font-size: 75% !important;
+        font-size: 0.9rem !important;
     }
     form .mb-3 input .form-control {
-        font-size: 65% !important;
+        font-size: 0.6rem !important;
     }
 }
-
-/* glow effect */
-@-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-    }
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-    }
-  }
